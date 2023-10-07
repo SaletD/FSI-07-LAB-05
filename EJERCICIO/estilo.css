@@ -1,0 +1,95 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    max-width: 70%; 
+    max-height: 70%; 
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    flex-direction:column;
+}
+*{
+    font-family:'Lato', sans-serif;
+    font-family:'Open Sans', sans-serif;
+    font-family:'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(22, 151, 202);
+    padding: .5rem;
+    color: white;
+    border:none;
+    width:60%;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+button:hover {
+    background-color: black;
+}
+form .form-group label {
+    flex-direction: column;
+    flex: 1; 
+    text-align: left;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+}
+form .form-group input{
+    width: 100%
+}
+form .form-group {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.mensaje-error {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.boton-registrarse a{
+    display: inline-block;
+    background-color: rgb(22, 151, 202);
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.boton-registrarse:hover a {
+    background-color: black;
+}
+.mensaje-exito {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.boton-iniciar a{
+    display: inline-block;
+    background-color: rgb(22, 151, 202);
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.boton-iniciar:hover a {
+    background-color: black;
+}
+
